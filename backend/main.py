@@ -10,7 +10,7 @@ from buffer import (
     refill_buffer,
     LOW_WATER_MARK
 )
-from storage import save_question, load_all_questions
+from storage import save_question, load_all_questions, append_to_google_doc
 from pdf_generator import generate_pdf, generate_subject_pdf
 
 app = FastAPI()
@@ -44,6 +44,16 @@ async def next_question(subject: str = "Data Structures"):
 @app.post("/save-attempt")
 def save_attempt(attempt: dict = Body(...)):
     save_question(attempt)
+    formatted = f"""
+Q. {attempt['question']}
+Options: {attempt['options']}
+Selected: {attempt['selected_option']}
+Correct: {attempt['correct_option']}
+Explanation: {attempt['explanation']}
+Result: {attempt['result']}
+------------------------------
+"""
+    append_to_google_doc(formatted)
     return {"status": "saved"}
 
 

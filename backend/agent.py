@@ -75,6 +75,7 @@ OUTPUT RULES (STRICT)
 2. Each question must have:
    - Exactly 4 options
    - ONLY ONE correct answer
+   - Detailed Explanation of answer and related options
 3. Do NOT mention PYQs
 4. Do NOT add unnecessary verbosity
 5. Explanation must be:
@@ -98,7 +99,7 @@ OUTPUT FORMAT (STRICT JSON)
         "Option D"
       ],
       "correct_option": 1,
-      "explanation": "Concise explanation justifying why the correct option is correct.",
+      "explanation": "Detailed explanation justifying why the correct option is correct.",
       "subject": "Data Structures",
       "difficulty": "Easy"
     }

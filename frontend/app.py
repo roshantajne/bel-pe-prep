@@ -54,7 +54,11 @@ selected_subject = st.sidebar.selectbox(
         "Computer Networks",
         "DBMS",
         "Compiler Design",
-        "Digital Logic"
+        "Digital Logic",
+        "Object-Oriented Programming (OOPs)",
+        "Computer Architecture",
+        "Algorithms",
+        "Artificial Intelligence / Machine Learning (BASIC ONLY)"
     ]
 )
 
@@ -116,7 +120,11 @@ subjects = [
     "Computer Networks",
     "DBMS",
     "Compiler Design",
-    "Digital Logic"
+    "Digital Logic",
+    "Object-Oriented Programming (OOPs)",
+    "Computer Architecture",
+    "Algorithms",
+    "Artificial Intelligence / Machine Learning (BASIC ONLY)"
 ]
 
 for sub in subjects:

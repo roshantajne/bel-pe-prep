@@ -27,46 +27,77 @@ EXAM CONTEXT (STRICT)
 ----------------------------------
 SUBJECT PRIORITY (VERY IMPORTANT)
 ----------------------------------
-Focus HEAVILY on:
+Focus HEAVILY on the following subjects and subtopics:
 
-1. Data Structures
+1. Data Structures (HIGH WEIGHTAGE)
    - Sorting (first pass / iteration output)
-   - Binary search (iterations count)
-   - Heap array representation
-   - Hashing with linear probing
-   - Stack & Queue operations
+   - Binary search (iterations count, best vs worst case)
+   - Heap (array representation, parent/child index)
+   - Hashing (linear probing, collision handling)
+   - Stack & Queue (operation sequence, overflow/underflow)
 
 2. Operating Systems
-   - Process states
+   - Process states and transitions
    - CPU scheduling (FCFS, convoy effect)
-   - Synchronization problems
-   - Dispatcher latency
-   - Multithreading properties
+   - Synchronization (critical section, mutual exclusion)
+   - Dispatcher latency and context switching
+   - Multithreading (user vs kernel threads, benefits)
 
 3. Computer Networks
-   - OSI layers & functions
-   - TCP vs UDP
-   - Transmission modes
-   - Protocol functions
-   - Network topology
+   - OSI model layers and their functions
+   - TCP vs UDP (reliability, connection, use-cases)
+   - Transmission modes (simplex, half-duplex, full-duplex)
+   - Common protocol functions (HTTP, FTP, DNS, ARP)
+   - Network topologies (bus, star, ring, mesh)
 
 4. DBMS
-   - BCNF condition
-   - Referential integrity
-   - Relational algebra operators
-   - Triggers
-   - DDL vs DML
+   - Normalization and BCNF condition
+   - Keys and referential integrity
+   - Relational algebra (selection, projection, join)
+   - Triggers (basic behavior)
+   - DDL vs DML vs DCL
 
 5. Compiler Design
    - Phases of compiler
-   - Lexical analysis
-   - CFG & Chomsky hierarchy
-   - Parsing & derivations
+   - Lexical analysis (tokens, lexemes)
+   - Syntax analysis and parsing
+   - Context-Free Grammar (CFG)
+   - Chomsky hierarchy and derivations
 
 6. Digital Logic
-   - Adders & subtractors
-   - Multiplexers
-   - Binary number conversions
+   - Binary number system and conversions
+   - Half adder vs full adder
+   - Adders and subtractors
+   - Multiplexers and demultiplexers
+   - Basic logic gate properties
+
+7. Object-Oriented Programming (OOPs)
+   - Encapsulation, inheritance, polymorphism, abstraction
+   - Interface vs abstract class (conceptual)
+   - Method overloading vs overriding
+   - Constructors and destructors
+   - static, final, virtual concepts (language-agnostic)
+
+8. Computer Architecture
+   - CPU components and instruction cycle
+   - RISC vs CISC
+   - Pipelining basics
+   - Memory hierarchy (cache vs main memory)
+   - Addressing modes (basic)
+
+9. Algorithms
+   - Time and space complexity (Big-O)
+   - Best, average, and worst case
+   - Searching vs sorting comparison
+   - Greedy vs divide-and-conquer (conceptual)
+
+10. Artificial Intelligence / Machine Learning (BASIC ONLY)
+   - AI vs ML vs DL
+   - Supervised vs unsupervised learning
+   - Common algorithms (linear regression, KNN, decision tree)
+   - Overfitting vs underfitting
+   - Basic evaluation terms (accuracy, precision)
+   - No mathematics, no neural network internals
 
 ----------------------------------
 OUTPUT RULES (STRICT)

@@ -49,11 +49,11 @@ st.sidebar.header("⚙️ Practice Setup")
 selected_subject = st.sidebar.selectbox(
     "Select Subject",
     [
-        "Data Structures",
-        "Operating Systems",
-        "Computer Networks",
-        "DBMS",
-        "Compiler Design",
+        "History",
+        "Polity",
+        "Geography",
+        "Economics",
+        "General science",
         "Digital Logic",
         "Object-Oriented Programming (OOPs)",
         "Computer Architecture",

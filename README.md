@@ -65,37 +65,37 @@ The system focuses on **PYQ-pattern-based MCQ practice**, low-latency question d
 
 ## 📁 Project Structure
 
-bel-prep/
-├── backend/
-│ ├── main.py
-│ ├── agent.py
-│ ├── buffer.py
-│ ├── storage.py
-│ ├── pdf_generator.py
-│ ├── requirements.txt
-│ └── Dockerfile
-│
-├── frontend/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── Dockerfile
-│
-├── docker-compose.yml
-└── README.md
+bel-prep/  
+├── backend/  
+│ ├── main.py  
+│ ├── agent.py  
+│ ├── buffer.py  
+│ ├── storage.py  
+│ ├── pdf_generator.py  
+│ ├── requirements.txt  
+│ └── Dockerfile  
+│  
+├── frontend/  
+│ ├── app.py  
+│ ├── requirements.txt  
+│ └── Dockerfile  
+│  
+├── docker-compose.yml  
+└── README.md  
 
 ---
 
 ## ⚙️ Architecture Overview
-Streamlit (Frontend)
-|
-| GET /next-question
-▼
-FastAPI (Backend)
-
-In-memory subject-wise buffers
-Concurrent background prefetch
-LLM-based MCQ generation
-Google Docs persistence
+Streamlit (Frontend)  
+|  
+| GET /next-question  
+▼  
+FastAPI (Backend)  
+  
+In-memory subject-wise buffers  
+Concurrent background prefetch  
+LLM-based MCQ generation  
+Google Docs persistence  
 
 
 - All concurrency and buffering logic lives in the backend  
@@ -123,11 +123,11 @@ docker compose build
 docker compose up
 ```
 
-## Environment Variables
-OLLAMA_API_KEY=your_ollama_api_key
-GOOGLE_SERVICE_ACCOUNT_JSON={service_account_json}
-GOOGLE_DOC_ID=your_google_doc_id
+## Environment Variables  
+OLLAMA_API_KEY=your_ollama_api_key  
+GOOGLE_SERVICE_ACCOUNT_JSON={service_account_json}  
+GOOGLE_DOC_ID=your_google_doc_id  
 
-## 📌Author
-Built by Roshan Tajane
+## 📌Author  
+Built by Roshan Tajane  
 Focused on backend systems, exam platforms, and AI-powered applications.
